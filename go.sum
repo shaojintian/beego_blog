@@ -1,5 +1,7 @@
 github.com/Echosong/beego_blog v0.0.0-20190731122125-87fefeaf0502 h1:TghQfWoywTavpql3Y+TuzjpU9eMazDnsq4mn0xkP5hs=
 github.com/Echosong/beego_blog v0.0.0-20190731122125-87fefeaf0502/go.mod h1:Sa45vb3NWJweEx0ZxpNqSKcceWKmMoafBDvWwdbQBb0=
+github.com/Echosong/beego_blog v0.0.0-20191030033532-52694b74b3b1 h1:3f3v8+k42MGpbe560T43BfLZ3L76EUA1EFnzfx/Hgz8=
+github.com/Echosong/beego_blog v0.0.0-20191030033532-52694b74b3b1/go.mod h1:Sa45vb3NWJweEx0ZxpNqSKcceWKmMoafBDvWwdbQBb0=
 github.com/Knetic/govaluate v3.0.0+incompatible/go.mod h1:r7JcOSlj0wfOMncg0iLm8Leh48TZaKVeNIfJntJ2wa0=
 github.com/OwnLocal/goes v1.0.0/go.mod h1:8rIFjBGTue3lCU0wplczcUgt9Gxgrkkrw7etMIcn8TM=
 github.com/astaxie/beego v1.12.0 h1:MRhVoeeye5N+Flul5PoVfD9CslfdoH+xqC/xvSQ5u2Y=

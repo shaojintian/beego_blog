@@ -1,8 +1,10 @@
 package models
 
 import (
-	"github.com/astaxie/beego/orm"
+	"fmt"
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/orm"
+	"log"
 )
 
 func Init() {
@@ -15,7 +17,11 @@ func Init() {
 		dbport = "3306"
 	}
 	dsn := dbuser + ":" + dbpassword + "@tcp(" + dbhost + ":" + dbport + ")/" + dbname + "?charset=utf8&loc=Asia%2FShanghai"
-	orm.RegisterDataBase("default", "mysql", dsn)
+	fmt.Println(dsn)
+	err := orm.RegisterDataBase("default", "mysql", dsn)
+	if err != nil{
+		log.Fatalln(err)
+	}
 	orm.RegisterModel(new(User), new(Category),new(Post), new(Config), new(Comment))
 }
 

@@ -1,10 +1,10 @@
 package main
 
 import (
-	_ "github.com/Echosong/beego_blog/routers"
+	"beego_blog_v1/models"
+	_ "beego_blog_v1/routers"
 	"github.com/astaxie/beego"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/Echosong/beego_blog/models"
 )
 
 
