@@ -6,6 +6,10 @@ MAINTAINER shaojintian
 #env
 ENV GOPROXY https://goproxy.io
 
+ENV GO111MODULE on
+
+RUN go env
+
 #dir
 RUN mkdir -p /go/src/beego_blog_v1
 
