@@ -28,4 +28,4 @@ RUN go build main.go
 #docker run  -it  --name beego -p 8080:8080 beego_blog_v1:v0.1 /bin/bash
 
 ## mysql
-#docker run  -dit  --name mysql  -p 3306:3306 -e MYSQL_ROOT_PASSWORD=6963038 mysql /bin/bash
+#docker run  -d  --name mysql  -p 3306:3306 -e MYSQL_ROOT_PASSWORD=6963038 mysql

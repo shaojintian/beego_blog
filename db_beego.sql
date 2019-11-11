@@ -13,6 +13,8 @@ File Encoding         : 65001
 Date: 2017-08-09 20:45:30
 */
 
+create database db_beego;
+use db_beego;
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
